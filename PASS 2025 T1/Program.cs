@@ -4,8 +4,10 @@ namespace PASS_2025_T1
 {
     internal class Program
     {
+        //Our main function. this is our entry point for the code. 
         static void Main(string[] args)
         {
+            //program starts at line 12, 
             //leave a hello message
             Console.WriteLine("RB waz here!!");
             Console.WriteLine("Hello this is Angelina");
@@ -46,10 +48,8 @@ namespace PASS_2025_T1
             char newchar = newString[7]; //tenth character
             Console.WriteLine(newchar);
 
-
             //booleans 
-
-            newBool = newInt == 4;
+            newBool = newInt == 4; //comparing values using '=='
             Console.WriteLine(newBool);
             newBool = newInt == 5;
             Console.WriteLine(newBool);
@@ -58,5 +58,6 @@ namespace PASS_2025_T1
 
 
 ;        }
+
     }
 }
