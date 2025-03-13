@@ -42,7 +42,7 @@
             }
             else if (!likeDogs && likeCats)
             {
-                Console.WriteLine("likes dogs");
+                Console.WriteLine("likes cats");
             }
             else
             {
@@ -70,7 +70,6 @@
             if (tempBool || hasNumber(newString))
             {
                 Console.WriteLine("has number in the string");
-
             }
             
             //use of AND Comparison, complex task on right, evaluate left side first
