@@ -18,7 +18,6 @@
             double dubs = 69;
             bool balls = true;
 
-
             bool pineAppleOnPizza = PineAppleOnPizza(false);
 
             Console.WriteLine(pineAppleOnPizza);
