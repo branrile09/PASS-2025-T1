@@ -12,8 +12,6 @@ namespace Week_6
 
     internal class Program
     {
-
-
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
@@ -27,6 +25,8 @@ namespace Week_6
 
             Person newPerson = new Person();
             Person newPerson2 = new Person(32,"DALE",1000);
+            newPerson2.name = "$#%^&*(";
+            // "Mc'Donald"
 
             Console.WriteLine(newPerson.name);
             Console.WriteLine(newPerson2.name);
@@ -58,8 +58,6 @@ namespace Week_6
 
             //6. Objects. 
         }
-
-
     }
 
     public class Wallet
@@ -92,6 +90,7 @@ namespace Week_6
 
         public float checkMoney()
         {
+
             return moneyz;
         }
 
