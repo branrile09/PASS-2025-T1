@@ -39,6 +39,9 @@ namespace Week_7
 
         public Car(int tyres) { this.tyres = tyres; }
 
+        protected void fillupFuel()
+        { }
+
         public void Burnout() {
             Console.WriteLine("you do a hektik burnout!!"); 
             Console.WriteLine("Now you're waiting for a mate");        
